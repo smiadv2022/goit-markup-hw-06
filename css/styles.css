@@ -79,7 +79,7 @@ transition: color var(--sec) var(--cubic);
 .header-li{
   position: relative;
   /* color: var(--color-primary); */
-   margin-right: 30px;
+   margin-right: 50px;
    padding-top: 32px;
 padding-bottom: 32px;
 /* transition: color, 800ms, cubic-bezier(0.075, 0.82, 0.165, 1); */
@@ -1017,7 +1017,9 @@ outline: ;
 
 
 }
-.clabel{
+.modal-agree .clabel{
+  padding: 0;
+  margin: 0;
   display: flex;
   width: 100%;
   justify-items: center;
