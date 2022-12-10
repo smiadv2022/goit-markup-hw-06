@@ -594,7 +594,9 @@ margin-bottom: 20px;
  margin-top: 72px;
  margin-left: 93px;
 
+
 }
+
 .btn-email-form{
   margin: 0;
   width: 200px;
@@ -619,6 +621,7 @@ letter-spacing: 0.06em;
 .email-form-title{
   font-weight: 700;
   margin-top: 0;
+  text-align:start;
 
 line-height: calc(16 / 14);
 
@@ -959,6 +962,10 @@ outline: none;
 
 
 }
+.modal textarea:hover{
+
+  border: 1px solid var(--color-accent);
+}
 .modal-agree{
   display: flex;
   width:100%;
@@ -1015,7 +1022,7 @@ outline: ;
   width: 100%;
   justify-items: center;
   align-items: center;
-  outline: 1px solid blueviolet;
+  /* outline: 1px solid blueviolet; */
 }
 .check-svg{
 fill:transparent;
